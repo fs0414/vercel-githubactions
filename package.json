@@ -1,5 +1,5 @@
 {
-  "name": "src",
+  "name": "vercel-githubactions",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "main": "index.js",
+  "repository": "https://github.com/soramar/vercel-githubactions.git",
+  "author": "fujitani-sora <sora.fujitani@cityrebirth.com>",
   "license": "MIT",
   "dependencies": {
     "next": "^13.4.7",
     "react": "^18.2.0",
+    "react-com": "^1.0.6",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
