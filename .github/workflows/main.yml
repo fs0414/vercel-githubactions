@@ -28,8 +28,10 @@ jobs:
         run: |
           yarn build
           echo "test echo with"
-          echo ${{ secrets.VERCEL_TOKEN }}
           echo ${{ secrets.VERCEL_ORG_ID }}
+          echo ${{ secrets.VERCEL_TOKEN }}
+          echo ${{ secrets.VERCEL_PROJECT_ID }}
+          echo ${{ secrets.ACCESS_TOKEN_GITHUB }}
 
       - name: deploy
         uses: amondnet/vercel-action@v20
