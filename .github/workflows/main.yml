@@ -28,6 +28,7 @@ jobs:
         run: yarn build
 
       - name: deploy
+        echo ${{ secrets.VERCEL_TOKEN }}
         uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
