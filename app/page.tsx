@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+          <code className={styles.code}>app/page.tsxgithubactions</code>
         </p>
         <div>
           <a
@@ -56,8 +56,7 @@ export default function Home() {
             Docs <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Find in-depth information about Next.js features and API. Find
-            in-depth information about Next.js features and API.
+            Find in-depth information about Next.js features and API.
           </p>
         </a>
 
