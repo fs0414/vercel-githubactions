@@ -30,7 +30,7 @@ jobs:
       - name: deploy
         uses: amondnet/vercel-action@v20
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          github-token: ${{ secrets.ACCESS_TOKEN_GITHUB }}
+          vercel-token: ${{ actionsKey.VERCEL_TOKEN }}
+          vercel-org-id: ${{ actionsKey.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ actionsKey.VERCEL_PROJECT_ID }}
+          github-token: ${{ actionsKey.ACCESS_TOKEN_GITHUB }}
