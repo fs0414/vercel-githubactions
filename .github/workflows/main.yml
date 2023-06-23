@@ -28,7 +28,7 @@ jobs:
         run: yarn build
 
       - name: deploy
-        uses: amondnet/vercel-action@v20
+        uses: amondnet/vercel-action@v19
         with:
           vercel-token: ebe4G0eV63h12bhOeF8OWTaz
           vercel-org-id: th0Xo7Aa311vlUkEzA89xTTQ
