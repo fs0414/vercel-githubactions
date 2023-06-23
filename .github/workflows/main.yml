@@ -28,6 +28,8 @@ jobs:
         run: yarn build
 
       - name: deploy
+        echo ${{ secrets.VERCEL_TOKEN }}
+        echo ${{ secrets.VERCEL_ORG_ID }}
         uses: amondnet/vercel-action@v19
         with:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
