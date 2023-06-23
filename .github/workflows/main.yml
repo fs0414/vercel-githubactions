@@ -32,5 +32,5 @@ jobs:
         with:
           vercel-token: ebe4G0eV63h12bhOeF8OWTaz
           vercel-org-id: th0Xo7Aa311vlUkEzA89xTTQ
-          vercel-project-id: prj_Xttg0XOT8wc7RWwAX8g6tUV2VUx
+          vercel-project-id: prj_Xttg0XOT8wc7RWwAX8g6tUV2VUxe
           github-token: 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
