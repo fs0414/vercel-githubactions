@@ -31,6 +31,6 @@ jobs:
         uses: amondnet/vercel-action@v19
         with:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          # vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           github-token: ${{ secrets.ACCESS_TOKEN_GITHUB }}
