@@ -25,11 +25,12 @@ jobs:
         run: yarn lint
 
       - name: build
-        run: yarn build
+        run: |
+          yarn build
+          echo ${{ secrets.VERCEL_TOKEN }}
+          echo ${{ secrets.VERCEL_ORG_ID }}
 
       - name: deploy
-        echo ${{ secrets.VERCEL_TOKEN }}
-        echo ${{ secrets.VERCEL_ORG_ID }}
         uses: amondnet/vercel-action@v19
         with:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
