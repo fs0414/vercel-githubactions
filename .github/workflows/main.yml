@@ -27,7 +27,7 @@ jobs:
       - name: build
         run: |
           yarn build
-          echo "test echo with githubactions"
+          echo "test echo with"
           echo ${{ secrets.VERCEL_TOKEN }}
           echo ${{ secrets.VERCEL_ORG_ID }}
 
